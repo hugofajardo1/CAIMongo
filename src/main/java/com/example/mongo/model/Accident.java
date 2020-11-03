@@ -13,8 +13,10 @@ public class Accident {
 	@Id
 	private String id;
 
+	@Field("Weather_Condition")
 	private String weatherCondition;
 
+	@Field("Street")
 	private String street;
 
 	@Field("Start_Time")
@@ -23,6 +25,7 @@ public class Accident {
 	@Field("start_location")
 	private Point location;
 
+	@Field("County")
 	private String county;
 
 	@Field("City")
